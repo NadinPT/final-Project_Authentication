@@ -1,0 +1,17 @@
+.clients_conent {
+  height: 20vh; }
+
+.count_gender {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px; }
+
+.alert {
+  position: fixed;
+  bottom: 5vh;
+  left: 10px; }
+
+.hidden {
+  display: none; }
+

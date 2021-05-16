@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+    <title>Document</title>
+  <script defer src="index.bundle.js"></script><script defer src="register.bundle.js"></script><link href="index.css" rel="stylesheet"><link href="register.css" rel="stylesheet"></head>
+
+  <body class="auth">
+    <form class="form" id="register">
+      <h1 class="form__heading">Sign in</h1>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="Enter email"
+          required
+        />
+        <small id="emailHelp" class="form-text text-muted"
+          >We'll never share your email with anyone else.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          required
+          type="password"
+          name="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Confirm Password</label>
+        <input
+          required
+          type="password"
+          name="password_confirm"
+          class="form-control"
+          id="exampleInputPassword2"
+          placeholder="Confirm Password"
+        />
+      </div>
+      <div class="button_block">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a class="link" href="./auth.html">Log in</a>
+      </div>
+    </form>
+  </body>
+</html>

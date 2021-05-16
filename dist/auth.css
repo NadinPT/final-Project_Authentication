@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.form {
+  padding: 20px;
+  width: 45vw;
+  margin: 5rem auto;
+  border-radius: 1.5rem;
+  border: 1px solid #eee;
+  box-shadow: 0 1rem 3rem 0.03rem rgba(0, 0, 0, 0.1);
+  font-family: "Balsamiq Sans", cursive; }
+  .form .link {
+    margin-left: 20px; }
+  .form .button_block {
+    margin-top: 10px; }
+
