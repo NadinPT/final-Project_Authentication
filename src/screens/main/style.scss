@@ -1,0 +1,17 @@
+body {
+    background-color: bisque;
+}
+
+.card_block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.salutation_block {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
